@@ -8,7 +8,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load model
-model = tf.keras.models.load_model('C:/Machine Learning/Machine Learning/modeltes.h5')
+model = tf.keras.models.load_model('modeltes.h5')
 
 @app.route('/predict', methods=['POST'])
 def predict():
